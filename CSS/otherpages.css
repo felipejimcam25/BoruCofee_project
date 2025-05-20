@@ -1,0 +1,87 @@
+/*~~~~~~~~~~ FONTS ~~~~~~~~~~~~*/
+@font-face {
+    font-family: 'Brand';
+    src: url(/Fonts/brand/Brand.woff) format('woff');
+}
+@font-face {
+    font-family: 'Century-gothic';
+    src: url(/Fonts/Century-Gothic/centurygothic.ttf) format('ttf');
+}
+@font-face {
+    font-family: 'Century-gothic-bold';
+    src: url(/Fonts/Century-Gothic/centurygothic_bold.ttf) format("tff");
+}
+/*~~~~~~~~~~ FONTS ~~~~~~~~~~~~*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~ TERMS AND CONDITIONS PAGES STYLES ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.century-bold{
+    font-family: 'century-gothic-bold', sans-serif;
+    font-weight: bold;
+}
+.century{
+    font-family: 'century-gothic', sans-serif;
+}
+.container{
+    padding: 1.5rem 4rem;
+}
+.justify-center{
+    justify-content: center;
+}
+.flex{
+    display: flex;
+}
+li{
+    list-style: circle;
+}
+.container-text{
+    padding: 0.3rem 1rem;
+    max-width: 30rem;
+}
+.column{
+    flex-direction: column;
+}
+.align-center{
+    align-items: center;
+}
+.m-1{
+    margin-bottom: 0.2rem !important;
+}
+.m-2{
+    margin-bottom: 0.5rem !important;
+}
+body{
+    position: relative;
+    background: #dad8d8;
+}
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0; 
+    width: 100%; 
+    height: 100%;
+    background: #dad8d8 url("/Assets/Boru_favicon/Boru_favicon.svg") no-repeat center;
+    background-size: contain; /* o "300px", según el tamaño deseado */
+    opacity: 0.1; /* ajusta este valor para hacerlo más o menos visible */
+    pointer-events: none;
+    z-index: -1;
+}
+
+nav{
+    background: rgba(0,0,0,0.5);
+    padding: 0.3rem 4rem;
+}
+
+.logo img{
+    width: 60px;
+}
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~ TERMS AND CONDITIONS PAGES STYLES ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
